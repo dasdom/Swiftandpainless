@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Constants'/>
+        <page name='Variables'/>
+        <page name='Type Inference I'/>
+        <page name='Type Inference II'/>
+        <page name='Optionals'/>
+        <page name='Unwrapping An Optional'/>
+        <page name='Arrays - Creation'/>
+        <page name='Arrays - Append, Insert, Add'/>
+        <page name='Arrays - Access &amp; Replace'/>
+        <page name='Arrays - Remove'/>
+        <page name='Arrays - Empty &amp; Count &amp; Contains'/>
+        <page name='Arrays - Iterating &amp; Enumerate'/>
+        <page name='Dictionarys - Creation'/>
+        <page name='Map'/>
+        <page name='Structs - Definition'/>
+        <page name='Classes'/>
+        <page name='Enums'/>
+        <page name='Extensions'/>
+        <page name='Protocols'/>
+        <page name='Protocols And Types'/>
+        <page name='Protocol Extensions'/>
+    </pages>
+</playground>
