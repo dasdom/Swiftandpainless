@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Constants'/>
         <page name='Variables'/>
@@ -14,13 +14,18 @@
         <page name='Arrays - Empty &amp; Count &amp; Contains'/>
         <page name='Arrays - Iterating &amp; Enumerate'/>
         <page name='Dictionarys - Creation'/>
+        <page name='Dictionarys - Add, Replace'/>
         <page name='Map'/>
+        <page name='Filter'/>
+        <page name='Reduce'/>
         <page name='Structs - Definition'/>
         <page name='Classes'/>
         <page name='Enums'/>
+        <page name='Encapsulation'/>
         <page name='Extensions'/>
         <page name='Protocols'/>
         <page name='Protocols And Types'/>
         <page name='Protocol Extensions'/>
+        <page name='Generics'/>
     </pages>
 </playground>
