@@ -6,7 +6,7 @@ import Foundation
 struct Person {
   let firstName: String
   let lastName: String
-  let age: Int
+  var age: Int
 }
 //: Automatic initializer and print
 let person = Person(firstName: "Dominik", lastName: "Hauser", age: 39)

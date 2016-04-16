@@ -22,3 +22,5 @@ let dateStringsSecond = dates.map { (date) -> String in
 let dateStringsThird = dates.map {
   dateFormatter.stringFromDate($0)
 }
+
+let dateStringsFourth = dates.map(dateFormatter.stringFromDate)

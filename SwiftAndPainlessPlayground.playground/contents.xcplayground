@@ -7,6 +7,7 @@
         <page name='Type Inference II'/>
         <page name='Optionals'/>
         <page name='Unwrapping An Optional'/>
+        <page name='Optional Chaining'/>
         <page name='Arrays - Creation'/>
         <page name='Arrays - Append, Insert, Add'/>
         <page name='Arrays - Access &amp; Replace'/>
@@ -15,10 +16,19 @@
         <page name='Arrays - Iterating &amp; Enumerate'/>
         <page name='Dictionarys - Creation'/>
         <page name='Dictionarys - Add, Replace'/>
+        <page name='Functions - Basics I'/>
+        <page name='Functions - Basics II'/>
+        <page name='Functions - Basics III'/>
+        <page name='Functions - Returning A Function'/>
+        <page name='Functions - Function As Parameter'/>
+        <page name='Functions - Capuring Values'/>
         <page name='Map'/>
         <page name='Filter'/>
         <page name='Reduce'/>
+        <page name='Sort'/>
+        <page name='Type Inference III'/>
         <page name='Structs - Definition'/>
+        <page name='Structs - Value Types'/>
         <page name='Classes'/>
         <page name='Enums'/>
         <page name='Encapsulation'/>
@@ -27,5 +37,6 @@
         <page name='Protocols And Types'/>
         <page name='Protocol Extensions'/>
         <page name='Generics'/>
+        <page name='Operators'/>
     </pages>
 </playground>
