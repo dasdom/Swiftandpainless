@@ -16,9 +16,11 @@ print(b)
  */
 class C {
   func doStuff() {
+    
     struct D {
       let d = "Yolo"
     }
+    
     print(D().d)
   }
 }
