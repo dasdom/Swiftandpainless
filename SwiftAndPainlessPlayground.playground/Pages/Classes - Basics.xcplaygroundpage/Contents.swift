@@ -1,7 +1,7 @@
 import Foundation
 /*:
  [⬅️](@previous) [➡️](@next)
- # Classes: Init
+ # Classes: Basics
  */
 class ToDo {
   let name: String
