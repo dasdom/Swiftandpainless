@@ -35,6 +35,7 @@
         <page name='Enums'/>
         <page name='Pattern Matching'/>
         <page name='Encapsulation'/>
+        <page name='Encapsulation Example - Inline Mock'/>
         <page name='Extensions'/>
         <page name='Protocols'/>
         <page name='Protocols And Types'/>
