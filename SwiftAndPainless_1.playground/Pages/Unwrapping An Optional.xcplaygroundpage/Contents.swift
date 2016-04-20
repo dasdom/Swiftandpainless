@@ -22,5 +22,5 @@ c()
 let d = a!
 print(d)
 /*:
- - note: Avoid the forced unwrapping!
+ - note: Avoid the forces unwrapping!
  */

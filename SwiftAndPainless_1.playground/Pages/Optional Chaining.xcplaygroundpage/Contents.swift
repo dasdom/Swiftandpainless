@@ -1,7 +1,7 @@
 import Foundation
 /*:
  [⬅️](@previous) [➡️](@next)
- # Optional Chaining
+ # Unwrapping An Optional
  */
 struct Person {
   var name: String

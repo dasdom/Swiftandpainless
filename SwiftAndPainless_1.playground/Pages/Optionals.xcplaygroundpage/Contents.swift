@@ -1,5 +1,9 @@
 import Foundation
 /*:
  [⬅️](@previous) [➡️](@next)
- # Generics
+ # Optionals
  */
+var a: Int? = 2
+print(a)
+
+a = nil

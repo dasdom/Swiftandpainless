@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Functions - Basics I'/>
+        <page name='Functions - Basics II'/>
+        <page name='Functions - Basics III'/>
+        <page name='Functions - Returning A Function'/>
+        <page name='Functions - Function As Parameter'/>
+        <page name='Functions - Capuring Values'/>
+        <page name='Map'/>
+        <page name='Filter'/>
+        <page name='Reduce'/>
+        <page name='Sort'/>
+        <page name='Type Inference III'/>
+    </pages>
+</playground>

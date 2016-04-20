@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Constants'/>
         <page name='Variables'/>
@@ -37,10 +37,14 @@
         <page name='Encapsulation'/>
         <page name='Encapsulation Example - Inline Mock'/>
         <page name='Extensions'/>
+        <page name='Extensions - Selector I'/>
+        <page name='Extensions - Selector II'/>
         <page name='Protocols'/>
         <page name='Protocols And Types'/>
         <page name='Protocol Extensions'/>
-        <page name='Generics'/>
+        <page name='Generics I'/>
+        <page name='Generics II'/>
+        <page name='Generics III'/>
         <page name='PATs'/>
         <page name='Error Handling'/>
         <page name='Operators'/>
