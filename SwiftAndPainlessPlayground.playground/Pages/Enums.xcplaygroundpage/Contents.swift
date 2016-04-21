@@ -19,4 +19,9 @@ enum GithubURL {
   }
 }
 
-let url = GithubURL.Repositories("dasdom").url()
+let url = GithubURL.Repositories("dasdom")
+url.url()
+
+enum Bla: Int {
+  case Blubb = 2
+}

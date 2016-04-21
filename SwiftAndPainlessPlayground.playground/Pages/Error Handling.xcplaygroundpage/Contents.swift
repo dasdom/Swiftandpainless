@@ -18,8 +18,10 @@ func makeInt(a: String) throws -> Int {
 var value: Int? = nil
 do {
   value = try makeInt("a")
+} catch CreationError.NotPossible {
+
 } catch {
-  print(error)
+  print(error)  
 }
 
 value = try? makeInt("foo")

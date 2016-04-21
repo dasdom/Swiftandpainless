@@ -3,7 +3,7 @@ import Foundation
  [⬅️](@previous) [➡️](@next)
  # Unwrapping An Optional
  */
-var a: String? = "Swift"
+var a: String? = "String"
 print(a)
 
 // if let
@@ -13,7 +13,7 @@ if let b = a {
 
 // guard
 func c() {
-  guard let c = a else { return }
+  guard let c = a else { fatalError() }
   print(c)
 }
 c()

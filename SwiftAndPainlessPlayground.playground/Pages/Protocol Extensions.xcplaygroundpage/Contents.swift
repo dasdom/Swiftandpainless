@@ -13,6 +13,10 @@ extension AnExampleProtocol {
   }
 }
 
-struct AnExampleStruct: AnExampleProtocol {}
+struct AnExampleStruct: AnExampleProtocol {
+  func printSomething() -> String {
+    return "bla"
+  }
+}
 
 let something = AnExampleStruct().printSomething()

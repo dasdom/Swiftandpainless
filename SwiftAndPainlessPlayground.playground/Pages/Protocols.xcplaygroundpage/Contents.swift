@@ -4,13 +4,16 @@ import Foundation
  # Protocols
  */
 protocol AnExampleProtocol {
-  var a: String { get set }
-  var b: Int { get }
+  var a: String? { get set }
   func doStuff()
 }
 
-struct AnExampleStruct: AnExampleProtocol {
-  var a: String
+protocol BProtocol {
+  var b: Int { get }
+}
+
+struct AnExampleStruct: AnExampleProtocol, BProtocol {
+  var a: String?
   let b: Int
   
   func doStuff() {

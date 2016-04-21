@@ -4,7 +4,7 @@ import Foundation
  # Classes: Basics
  */
 class ToDo {
-  let name: String
+  var name: String = "er"
   let dueDate: NSDate
   let locationName: String
   
