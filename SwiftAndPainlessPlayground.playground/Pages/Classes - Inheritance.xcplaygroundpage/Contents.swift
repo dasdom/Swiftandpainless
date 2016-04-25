@@ -20,3 +20,6 @@ class RedView: UIView {
     fatalError("init(coder:) has not been implemented")
   }
 }
+
+let rect = CGRectMake(0, 0, 100, 50)
+RedView(frame: rect)
