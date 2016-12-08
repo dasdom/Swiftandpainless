@@ -5,8 +5,8 @@ import Foundation
  */
 let numbers = [1.1, 2.1, 88.0, 4.0, 11.2, 1.1]
 
-var sorted = numbers.sort { (a, b) -> Bool in
+var sorted = numbers.sorted { (a, b) -> Bool in
   return a < b
 }
 
-sorted = numbers.sort(<)
+sorted = numbers.sorted(by: <)

@@ -3,7 +3,7 @@ import Foundation
  [⬅️](@previous) [➡️](@next)
  # Generics III
  */
-struct ExclusiveStack<Element where Element: Equatable>: CustomStringConvertible {
+struct ExclusiveStack<Element>: CustomStringConvertible where Element: Equatable {
   var items = [Element]()
   mutating func push(item: Element) {
     if !items.contains(item) {
@@ -19,6 +19,6 @@ struct ExclusiveStack<Element where Element: Equatable>: CustomStringConvertible
 }
 
 var stringStack = ExclusiveStack<String>()
-stringStack.push("foo")
-stringStack.push("bar")
-stringStack.push("foo")
+stringStack.push(item: "foo")
+stringStack.push(item: "bar")
+stringStack.push(item: "foo")

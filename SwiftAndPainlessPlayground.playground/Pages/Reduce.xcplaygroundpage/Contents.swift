@@ -21,7 +21,7 @@ sum = numbers.reduce(0) {
   $0 + $1
 }
 
-sum = numbers.reduce(0, combine: +)
+sum = numbers.reduce(0, +)
 
 /*:
  This is all the same!

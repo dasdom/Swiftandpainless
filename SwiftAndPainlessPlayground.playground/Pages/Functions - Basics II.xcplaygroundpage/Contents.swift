@@ -14,4 +14,4 @@ func average(numbers: Int...) -> Int? {
   return sum/numbers.count
 }
 
-let a = average(3, 5, 23, 42)
+let a = average(numbers: 3, 5, 23, 42)

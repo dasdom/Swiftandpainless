@@ -3,7 +3,7 @@ import Foundation
  [⬅️](@previous) [➡️](@next)
  # Generics I
  */
-func removeDuplicateInts(a: [Int]) -> [Int] {
+func removeDuplicateInts(_ a: [Int]) -> [Int] {
   var set = Set(a)
   return a.filter {
     if let _ = set.remove($0) {
@@ -16,7 +16,7 @@ func removeDuplicateInts(a: [Int]) -> [Int] {
 let array = [2, 2, 1, 3, 4, 5, 2, 7, 3]
 removeDuplicateInts(array)
 
-func removeDuplicates<T: Hashable>(a: [T]) -> [T] {
+func removeDuplicates<T: Hashable>(_ a: [T]) -> [T] {
   var set = Set(a)
   return a.filter {
     if let _ = set.remove($0) {

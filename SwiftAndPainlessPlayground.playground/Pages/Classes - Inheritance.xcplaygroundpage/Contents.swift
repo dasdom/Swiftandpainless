@@ -11,7 +11,7 @@ class RedView: UIView {
     
     super.init(frame: frame)
     
-    backgroundColor = .redColor()
+    backgroundColor = .red
     addSubview(label)
     // do layout
   }
@@ -21,5 +21,5 @@ class RedView: UIView {
   }
 }
 
-let rect = CGRectMake(0, 0, 100, 50)
+let rect = CGRect(x: 0, y: 0, width: 100, height: 50)
 RedView(frame: rect)

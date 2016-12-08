@@ -4,6 +4,6 @@ import Foundation
  # Optionals
  */
 var a: Int? = 2
-print(a)
+print(a ?? "nil")
 
 a = nil

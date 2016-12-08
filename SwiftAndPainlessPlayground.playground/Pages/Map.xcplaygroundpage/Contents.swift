@@ -3,25 +3,25 @@ import Foundation
  [⬅️](@previous) [➡️](@next)
  # Map
  */
-let dateFormatter = NSDateFormatter()
+let dateFormatter = DateFormatter()
 dateFormatter.dateFormat = "dd.MM.yyyy HH:mm"
 
-let now = NSDate()
-let past = NSDate(timeIntervalSinceNow: -1_000_000_000)
-let startOfTime = NSDate(timeIntervalSince1970: 0)
+let now = Date()
+let past = Date(timeIntervalSinceNow: -1_000_000_000)
+let startOfTime = Date(timeIntervalSince1970: 0)
 
 let dates = [now, past, startOfTime]
 
 let dateStringsFirst = dates.map( { (date) -> String in
-  return dateFormatter.stringFromDate(date)
+  return dateFormatter.string(from: date)
 })
 
 let dateStringsSecond = dates.map { (date) -> String in
-  return dateFormatter.stringFromDate(date)
+  return dateFormatter.string(from: date)
 }
 
 let dateStringsThird = dates.map {
-  dateFormatter.stringFromDate($0)
+    dateFormatter.string(from: $0)
 }
 
-let dateStringsFourth = dates.map(dateFormatter.stringFromDate)
+let dateStringsFourth = dates.map(dateFormatter.string)

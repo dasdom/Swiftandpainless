@@ -3,7 +3,7 @@ import Foundation
  [⬅️](@previous) [➡️](@next)
  # Arrays: Empty & Count & Contains
  */
-let array = Array((1..<10).reverse())
+let array = Array((1..<10).reversed())
 
 if array.isEmpty {
   print("array is empty")

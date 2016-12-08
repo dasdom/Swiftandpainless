@@ -12,7 +12,7 @@ func testSettingData_ReloadsTableView() {
   
   class MockTableView: UITableView {
     var reloadDataGotCalled = false
-    private override func reloadData() {
+    fileprivate override func reloadData() {
       reloadDataGotCalled = true
       super.reloadData()
     }

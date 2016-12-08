@@ -6,7 +6,7 @@ import Foundation
 extension String {
   var countVovels: Int {
     let vovels: [Character] = ["a", "e", "i", "o", "u"]
-    return self.lowercaseString.characters.reduce(0) {
+    return self.lowercased().characters.reduce(0) {
       return $0 + (vovels.contains($1) ? 1 : 0)
     }
   }
