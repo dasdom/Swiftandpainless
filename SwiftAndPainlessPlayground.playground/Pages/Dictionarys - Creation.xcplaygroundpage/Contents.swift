@@ -8,4 +8,4 @@ dictionary = ["name": "Dominik", "github": "dasdom"]
 dictionary = [:]
 
 let anotherDictionary: [Double:String] = [:]
-anotherDictionary.dynamicType
+type(of: anotherDictionary)

@@ -16,8 +16,8 @@ func foo(response: (Int, String, [String:String])) {
   }
 }
 
-foo((400, "https://api.github.com", [String:String]()))
-foo((200, "http://google.com", ["foo":"bar"]))
-foo((500, "https://", ["hello":"Swift"]))
+foo(response: (400, "https://api.github.com", [String:String]()))
+foo(response: (200, "http://google.com", ["foo":"bar"]))
+foo(response: (500, "https://", ["hello":"Swift"]))
 
 let greatBlogPost = NSURL(string: "http://appventure.me/2015/08/20/swift-pattern-matching-in-detail/")

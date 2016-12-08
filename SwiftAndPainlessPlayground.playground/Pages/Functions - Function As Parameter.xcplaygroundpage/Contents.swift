@@ -18,10 +18,10 @@ func hasMatches(list: [Person], condition: (Person) -> Bool) -> Bool {
 let developer = [Person(name: "Dominik", languages: ["Swift", "ObjC"]),
                  Person(name: "Bill", languages: ["C#", "C++"])]
 
-hasMatches(developer) { (person) -> Bool in
+hasMatches(list: developer) { (person) -> Bool in
   return person.languages.contains("C#")
 }
 
-hasMatches(developer) {
+hasMatches(list: developer) {
   $0.languages.contains("C#")
 }

@@ -4,10 +4,10 @@ import Foundation
  # Arrays: Creation
  */
 var array = Array(0..<10)
-array = Array(count: 3, repeatedValue: 2)
+array = Array(repeating: 2, count: 3)
 
 array = [1,2,3,4]
-array.dynamicType
+type(of: array)
 
 var doubleArray: [Double] = []
-doubleArray.dynamicType
+type(of: doubleArray)

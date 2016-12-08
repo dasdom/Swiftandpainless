@@ -17,10 +17,10 @@ struct Stack<Element>: CustomStringConvertible {
 }
 
 var intStack = Stack<Int>()
-intStack.push(5)
-intStack.push(42)
+intStack.push(item: 5)
+intStack.push(item: 42)
 intStack.pop()
 
 var stringStack = Stack<String>()
-stringStack.push("foo")
-stringStack.push("bar")
+stringStack.push(item: "foo")
+stringStack.push(item: "bar")

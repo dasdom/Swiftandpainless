@@ -3,11 +3,11 @@ import Foundation
  [⬅️](@previous) [➡️](@next)
  # Error Handling
  */
-enum CreationError: ErrorType {
+enum CreationError: Error {
   case NotPossible
 }
 
-func makeInt(a: String) throws -> Int {
+func makeInt(_ a: String) throws -> Int {
   if let value = Int(a) {
     return value
   } else {

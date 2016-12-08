@@ -3,7 +3,7 @@ import Foundation
  [⬅️](@previous) [➡️](@next)
  # Functions: Returning A Function
  */
-func urlMaker(base base: String) -> ([String:String]) -> NSURL? {
+func urlMaker(base: String) -> ([String:String]) -> NSURL? {
   
   func url(parameter: [String:String]) -> NSURL? {
     var paramString = ""
@@ -17,7 +17,7 @@ func urlMaker(base base: String) -> ([String:String]) -> NSURL? {
   return url
 }
 let userURLMaker = urlMaker(base: "http://api.stackexchange.com/2.2/users")
-userURLMaker.dynamicType
+type(of: userURLMaker)
 
 let userURL = userURLMaker(["order":"desc","sort":"reputation"])
-print(userURL)
+print(userURL ?? "nil")

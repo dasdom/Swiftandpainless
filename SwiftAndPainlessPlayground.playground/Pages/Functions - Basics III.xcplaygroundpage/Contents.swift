@@ -20,7 +20,7 @@ func minMax(numbers: Int...) -> (min: Int, max: Int) {
   return (min, max)
 }
 
-let result = minMax(23, 3, 42, 5, 666)
+let result = minMax(numbers: 23, 3, 42, 5, 666)
 let min = result.min
 let max = result.max
 

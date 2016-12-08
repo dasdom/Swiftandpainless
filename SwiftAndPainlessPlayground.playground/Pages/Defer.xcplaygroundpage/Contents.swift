@@ -4,7 +4,7 @@ import Foundation
  # Defer
  */
 
-func foo(a: Int) {
+func foo(_ a: Int) {
   defer {
     print(message)
   }

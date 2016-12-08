@@ -17,7 +17,7 @@ let me = Person(name: "Dominik", github: "dasdom")
 meetup = Meetup(speaker: me, numberOfAttendees: 200)
 
 let speakerName = meetup?.speaker?.name
-speakerName.dynamicType
+type(of: speakerName)
 
 /*:
  Optional chaining returns nil if one of the elements in the chain returns nil. Also works with function/method calls.

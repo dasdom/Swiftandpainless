@@ -4,7 +4,7 @@ import Foundation
  # Unwrapping An Optional
  */
 var a: String? = "String"
-print(a)
+print(a ?? "nil")
 
 // if let
 if let b = a {
